@@ -40,9 +40,9 @@ h1{
 }
 
 #header-body-fond {
-    background:url('vietnam.jpg');
+    background:url('img/vietnam/vietnam.jpg');
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.00) 50%, rgba(0, 0, 0, 0.60) 100%),
-    url('vietnam.jpg');
+    url('img/vietnam/vietnam.jpg');
     background-position: center;
     background-repeat: no-repeat;
     height: 100%;
@@ -380,7 +380,7 @@ a {
 
 @font-face {
     font-family: 'reseaux.ttf';
-    src: url('reseaux.ttf');
+    src: url('img/icon/reseaux.ttf');
 }
 
 .reseaux {
