@@ -28,11 +28,47 @@
     text-shadow: 0px 7px 10px rgba(0, 0, 0, 0.5);
 }
 
+.titreSection{
+    font-weight: 700;
+    font-size: 6vw;
+    padding: 20px 0;
+    font-family: "Open Sans",Arial, sans-serif;
+    
+    color: rgb(223, 189, 96);
+    text-shadow: 0px 7px 10px rgb(128,128,128);
+    background-color: rgb(157,200,82);
+}
+
+.sous-titreSection{
+    font-weight: 700;
+    font-size: 30px;
+    padding: 20px 0;
+    font-family: "Open Sans",Arial, sans-serif;
+    margin-top: 10px;
+    color: rgb(128,128,128);
+    text-shadow: -1px 0 rgb(168, 164, 164), 0 1px rgb(168, 164, 164), 1px 0 rgb(168, 164, 164), 0 -1px rgb(168, 164, 164);
+}
+
+.sub-paragraf{
+    font-weight: 400;
+    font-size: 20px;
+    padding: 10px 0;
+    font-family: "Open Sans",Arial, sans-serif;
+    margin-top: 5px;  
+}
+
 .header-logo {
     float: left;
     position: relative;
     height: 240px;
     width: auto;
+}
+
+hr {
+    border: 0;
+    border-bottom: solid 1px rgba(210, 215, 217, 0.75);
+    margin: auto; 
+    width: 50%;
 }
 
 .container{
@@ -45,12 +81,72 @@
 .home {
     background-color: whitesmoke;
     box-shadow: 0px 6px 9px -8px rgba(64, 64, 64, 1);
-    font-family: inherit;
+    width:70%;
+    margin: 20px auto ;   
+}
+
+.home p {
+    line-height: 1.5;
+    text-align: left;
 }
 
 .globe {
     background-color: rgba(103, 145, 179, 0.616);
     box-shadow: 0px 6px 9px -8px rgba(64, 64, 64, 1);
-    font-family: inherit;
     text-align: justify;
 }
+
+section{
+    margin-top: 30px;
+}
+
+/* Image */
+.image {
+    border-radius: 0.375em;
+    border: 0;
+    display: inline-block;
+    position: relative; }
+    .image img {
+      border-radius: 0.375em;
+      display: block; }
+    .image.left, .image.right {
+      max-width: 40%; }
+      .image.left img, .image.right img {
+        width: 100%; }
+    .image.left {
+      float: left;
+      padding: 0 1em 1em 0;
+      top: 0.25em; }
+    .image.right {
+      float: right;
+      padding: 0 0 1em 1.5em;
+      top: 0.25em; }
+    .image.fit {
+      display: block;
+      margin: 0 0 2em 0;
+      width: 100%; }
+      .image.fit img {
+        width: 100%; }
+    .image.main {
+      display: block;
+      margin: 0 0 3em 0;
+      width: 100%; }
+      .image.main img {
+        width: 100%; }
+  
+  a.image {
+    overflow: hidden; }
+    a.image img {
+      -moz-transition: -moz-transform 0.2s ease;
+      -webkit-transition: -webkit-transform 0.2s ease;
+      -ms-transition: -ms-transform 0.2s ease;
+      transition: transform 0.2s ease; }
+    a.image:hover img {
+      -moz-transform: scale(1.075);
+      -webkit-transform: scale(1.075);
+      -ms-transform: scale(1.075);
+      transform: scale(1.075); }
+
+    span {
+        padding-left: 30px;
+    }
