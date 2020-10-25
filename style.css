@@ -277,6 +277,38 @@ a {
     border-top-color: #cb9b48;
 }
 
+.menu-title_5th {
+    background: #d9e06a;
+}
+
+.menu-title_5th:hover {
+    background: #b6bd59;
+}
+
+.menu-title_5th:before {
+    border-top-color: #d9e06a;
+}
+
+.menu-title_5th:hover:before {
+    border-top-color: #b6bd59;
+}
+
+.menu-title_6th {
+    background: rgb(92, 89, 89);
+}
+
+.menu-title_6th:hover {
+    background: rgb(59, 57, 57);
+}
+
+.menu-title_6th:before {
+    border-top-color:rgb(92, 89, 89);
+}
+
+.menu-title_6th:hover:before {
+    border-top-color:rgb(59, 57, 57);
+}
+
 .menu-dropdown {
     min-width: 100%;
     padding: 15px 0;
@@ -348,6 +380,10 @@ a {
 
 .hList>*+* {
     margin-left: 0;
+}
+
+.hList-right {
+    margin-left: 80px;
 }
 
 /*footer*/
