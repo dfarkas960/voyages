@@ -323,6 +323,10 @@ a {
     transition: 0.5s height cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s padding cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s margin cubic-bezier(0.73, 0.32, 0.34, 1.5), 0.5s 0.2s color, 0.2s background-color;
 }
 
+.menu-dropdown>li {
+    color: #235a70;
+}
+
 .menu-dropdown>*:hover {
     background: rgba(0, 0, 0, 0.1);
 }
