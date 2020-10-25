@@ -169,6 +169,10 @@ a {
     text-decoration: none;
 }
 
+.menu a{
+    color:rgb(58, 57, 57);
+}
+
 .menu-title {
     display: block;
     width: 150px;
