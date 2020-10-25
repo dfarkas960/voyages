@@ -313,6 +313,22 @@ a {
     border-top-color:rgb(59, 57, 57);
 }
 
+.menu-title_7th {
+    background: rgb(83, 61, 211);
+}
+
+.menu-title_7th:hover {
+    background: rgb(41, 29, 105);
+}
+
+.menu-title_7th:before {
+    border-top-color: rgb(83, 61, 211);
+}
+
+.menu-title_7th:hover:before {
+    border-top-color: rgb(41, 29, 105);
+}
+
 .menu-dropdown {
     min-width: 100%;
     padding: 15px 0;
@@ -387,7 +403,11 @@ a {
 }
 
 .hList-right {
-    margin-left: 80px;
+    margin-left: 60px;
+}
+
+.hList-left {
+    margin-right: 60px;
 }
 
 /*footer*/
